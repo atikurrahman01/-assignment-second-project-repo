@@ -42,6 +42,9 @@ margin:0;
             background-color:rgba(224, 44, 110, 0.637); 
             color: rgb(4, 241, 230);
         }
+
+
+        
         
 
         /* ----------------------------------
@@ -152,7 +155,116 @@ margin:0;
              background-color: rgba(10, 8, 38, 1);
              color: whitesmoke;
              text-align: center;
+             margin-top: 5em;
          }
          .icon{
-             margin-left: 45px;
+             margin-left: 3em
+         }
+
+
+  /*----------------------------
+   media queries for mobile  
+   --------------------------------*/
+
+
+
+         @media all and (max-width: 688px) {
+             .fist-header{
+                 margin-left: 10em;
+             }
+            .influecers-journey{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding-left: 20%
+            }
+             .influecers-journey-part1 img{
+                width: 37em;
+                margin-top: 7em;
+                padding-left:0;
+             }
+             .section-title{
+                 margin-left: 15em;
+             }
+             .sub-container{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 24em;
+                margin-top: 4em;
+                padding-left: 12em;
+             }
+              .batton1{
+                  margin-right: 20%;
+                  margin-top: 10%;
+              }
+             
+             .bounus-section{
+                width: 100%;
+                margin-left: 55%;
+                margin-top: 5em;
+             }
+             .bounus-sub-section img{
+                 padding-left: 25%;
+             }
+             .footer-section{
+                background-color: rgba(10, 8, 38, 1);
+                color: whitesmoke;
+                text-align: center;
+                
+                width:200%;
+                
+             
+         }
+         
+        }
+        
+
+        /*----------------------------------
+         media queries for tab
+         --------------------------------- */
+
+
+
+         @media all and (min-width: 688px) and (max-width: 992px){
+
+            .fist-header{
+                margin-left: 50%;
+            }
+            .influecers-journey{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding-left: 20%
+            }
+            .influecers-journey-part1 img{
+                width: 37em;
+                margin-top: 7em;
+                padding-left:0;
+             }
+             .section-title{
+                margin-left: 15em;
+            }
+            .popular-collections{
+         
+                width: 86%;
+            }
+            .sub-container{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                width: 24em;
+                margin-top: 4em;
+                
+             }
+             .bounus-section{
+                width: 50%;
+                margin-left: 35%;
+                margin-top: 5em;
+             }
+             .bounus-sub-section img{
+                 padding-left: 25%;
+             }
+             .footer-section{
+                background-color: rgba(10, 8, 38, 1);
+                color: whitesmoke;
+                text-align: center;
+                
+                width:200%;
          }
