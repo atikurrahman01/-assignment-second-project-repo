@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+    font-family:  'Poppins', sans-serif;
+margin:0;
+}
+
+/* -----------------------------
+   Influencer products 
+--------------------------------*/
+
+.fist-header{
+    margin-left:7em;
+}
+
+.influecers-journey{
+        display: flex;
+    }
+        
+        
+        .influecers-journey-part1{
+            width: 50%;
+            margin-top:5em;
+            padding-left: 8em;
+        }
+        .influecers-journey-part1 h1{
+            font-weight:bolder;
+            
+        }
+        .influecers-journey-part1 img{
+            width: 60%;
+            padding-left: 5em;
+        }
+        .batton{
+            background-color:rgba(224, 44, 109, 1);
+            text-decoration: none;
+            border-radius: 25px;
+            color:white;
+            padding: 10px;
+        }
+        .batton:hover{
+            background-color:rgba(224, 44, 110, 0.637); 
+            color: rgb(4, 241, 230);
+        }
