@@ -112,3 +112,47 @@ margin:0;
         /* --------------------------
          Bounus section strat  
          -----------------------------*/
+         .bounus-section{
+             width: 50%;
+             margin-left: 25%;
+             box-shadow: 5px 10px 18px #88888899;
+         }
+         .bounus-sub-section h1{
+             text-align: center;
+         } 
+         .bounus-sub-section img{
+             width: 50%;
+             padding-left: 11.5em;
+         }
+         .bounus-sub-section h2{
+             text-align: center;
+         }
+         .bounus-sub-section hr{
+             color: rgb(0, 0, 0);
+         }
+         .form1{
+             text-align: center;
+             background-color:rgba(0, 255, 255, 0.055);
+             box-shadow: 5px 10px 18px #88888899;
+         }
+         .input-box{
+            margin: 11px;
+            padding: 12px;
+            border-radius: 13px;
+            background-color: #c0f8ffd0;
+            box-shadow: 5px 10px 18px #88888899;
+         }
+         .input-box2{
+            margin: 10px;
+            padding: 6px;
+            border-radius: 25px;
+            background-color: #c0fff6;
+         }
+         .footer-section{
+             background-color: rgba(10, 8, 38, 1);
+             color: whitesmoke;
+             text-align: center;
+         }
+         .icon{
+             margin-left: 45px;
+         }
